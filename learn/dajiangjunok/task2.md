@@ -114,7 +114,7 @@ program calculator.aleo {
     
     function multiply(a: u64, b: u64) -> u64 {
         let result: u64 = 0u64;
-        for i: u8 in 0u8..b {
+        for i: u64 in 0u64..b {
             result = add(result, a);
         }
         return result;
